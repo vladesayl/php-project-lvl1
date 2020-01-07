@@ -2,7 +2,7 @@
     "name": "vladesayl/php-project-lvl1",
     "description": "project-hexlet-l1",
     "type": "project",
-    "license": "secret",
+    "license": "MIT",
     "authors": [
         {
             "name": "Vlad Makarenko",

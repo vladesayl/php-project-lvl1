@@ -1,0 +1,19 @@
+{
+    "name": "vladesayl/php-project-lvl1",
+    "description": "project-hexlet-l1",
+    "type": "project",
+    "license": "secret",
+    "authors": [
+        {
+            "name": "Vlad Makarenko",
+            "email": "vladesayl12345@gmail.com"
+        }
+    ],
+    "bin": [
+        "./brain-games"
+    ],    
+    "minimum-stability": "dev",
+    "require": {}
+	
+}
+

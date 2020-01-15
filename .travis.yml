@@ -6,8 +6,5 @@ php:
 install:
   - make install
 
-before_script:
-    - composer install
+script: make lint test
 
-script: 
-  - vendor/bin/phpunit

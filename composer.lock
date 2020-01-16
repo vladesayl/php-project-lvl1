@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0596d2c1c179a0d1943caacccfb0dd02",
+    "content-hash": "3d9307ce060b78a1ca426ac79190002a",
     "packages": [
         {
             "name": "wp-cli/php-cli-tools",
@@ -740,12 +740,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "2644007ca48027cc86f759154c85384119142aae"
+                "reference": "9b1f9206b9a4378777125f3ae360ff634c220269"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2644007ca48027cc86f759154c85384119142aae",
-                "reference": "2644007ca48027cc86f759154c85384119142aae",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/9b1f9206b9a4378777125f3ae360ff634c220269",
+                "reference": "9b1f9206b9a4378777125f3ae360ff634c220269",
                 "shasum": ""
             },
             "require": {
@@ -815,7 +815,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2020-01-08T08:58:54+00:00"
+            "time": "2020-01-16T12:42:05+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -1434,16 +1434,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.2.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "4842476c434e375f9d3182ff7b89059583aa8b27"
+                "reference": "bb50f790f17a431f8cf294274081a723bf376878"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/4842476c434e375f9d3182ff7b89059583aa8b27",
-                "reference": "4842476c434e375f9d3182ff7b89059583aa8b27",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/bb50f790f17a431f8cf294274081a723bf376878",
+                "reference": "bb50f790f17a431f8cf294274081a723bf376878",
                 "shasum": ""
             },
             "require": {
@@ -1476,12 +1476,12 @@
                 }
             ],
             "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
-            "homepage": "http://www.squizlabs.com/php-codesniffer",
+            "homepage": "https://github.com/squizlabs/PHP_CodeSniffer",
             "keywords": [
                 "phpcs",
                 "standards"
             ],
-            "time": "2018-02-20T21:35:23+00:00"
+            "time": "2020-01-14T22:43:20+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",

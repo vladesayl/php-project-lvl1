@@ -22,7 +22,7 @@
 
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.0@dev",
-        "phpunit/phpunit": "*"
+        "phpunit/phpunit": "^4.6 || ^5.0"
     },
     
     "require": {

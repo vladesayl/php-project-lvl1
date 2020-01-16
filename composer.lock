@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c4f4b34af922c98f303979c659f8c685",
+    "content-hash": "0596d2c1c179a0d1943caacccfb0dd02",
     "packages": [
         {
             "name": "wp-cli/php-cli-tools",
@@ -326,12 +326,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "f256f0b49e236c3b4705804d9998379282e0f75d"
+                "reference": "cf16f630f2211d388b8d254bf2ea936c232b3cb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/f256f0b49e236c3b4705804d9998379282e0f75d",
-                "reference": "f256f0b49e236c3b4705804d9998379282e0f75d",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/cf16f630f2211d388b8d254bf2ea936c232b3cb4",
+                "reference": "cf16f630f2211d388b8d254bf2ea936c232b3cb4",
                 "shasum": ""
             },
             "require": {
@@ -371,7 +371,7 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2020-01-12T12:26:24+00:00"
+            "time": "2020-01-16T08:49:07+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -1434,16 +1434,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "dev-master",
+            "version": "3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "bb50f790f17a431f8cf294274081a723bf376878"
+                "reference": "4842476c434e375f9d3182ff7b89059583aa8b27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/bb50f790f17a431f8cf294274081a723bf376878",
-                "reference": "bb50f790f17a431f8cf294274081a723bf376878",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/4842476c434e375f9d3182ff7b89059583aa8b27",
+                "reference": "4842476c434e375f9d3182ff7b89059583aa8b27",
                 "shasum": ""
             },
             "require": {
@@ -1476,12 +1476,12 @@
                 }
             ],
             "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
-            "homepage": "https://github.com/squizlabs/PHP_CodeSniffer",
+            "homepage": "http://www.squizlabs.com/php-codesniffer",
             "keywords": [
                 "phpcs",
                 "standards"
             ],
-            "time": "2020-01-14T22:43:20+00:00"
+            "time": "2018-02-20T21:35:23+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1633,8 +1633,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "wp-cli/php-cli-tools": 20,
-        "squizlabs/php_codesniffer": 20
+        "wp-cli/php-cli-tools": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

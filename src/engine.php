@@ -21,7 +21,7 @@ function question($question)
 function check($trueAnswer)
 {
     if ($GLOBALS['userAnswer'] == $trueAnswer) {
-        line("Correct!");  
+        line("Correct!");
         $GLOBALS['count']++;
     } else {
         line("'{$GLOBALS['userAnswer']}' is wrong answer ;(. Correct answer was '{$trueAnswer}'.");
@@ -31,7 +31,7 @@ function check($trueAnswer)
 }
 function over()
 {
-    if ($GLOBALS['count'] == 4 ) {
+    if ($GLOBALS['count'] == 4) {
          line("Congratulations, %s!", $GLOBALS['name']);
     }
 }

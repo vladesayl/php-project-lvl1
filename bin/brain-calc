@@ -3,7 +3,6 @@
 use BrainGames\Cli;
 use function cli\line;
 use function cli\prompt;
-
 $autoloadPath1 = __DIR__ . '/../../../autoload.php';
 $autoloadPath2 = __DIR__ . '/../vendor/autoload.php';
 if (file_exists($autoloadPath1)) {
@@ -12,6 +11,7 @@ if (file_exists($autoloadPath1)) {
     require_once $autoloadPath2;
 }
 line('Welcome to the Brain Game!');
-line('Answer "yes" if the number is even, otherwise answer "no". ' . "\n");
-Cli\brainEven();
+line('What is the result of the expression?' . "\n");
+
+Cli\brainCalc();
 ?>

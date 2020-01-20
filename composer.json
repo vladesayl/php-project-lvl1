@@ -10,7 +10,8 @@
         }
     ],
     "bin": [
-        "bin/brain-even"
+        "bin/brain-even",
+        "bin/brain-calc"
     ],
     "scripts": {
     "phpcs": "phpcs",
@@ -28,7 +29,9 @@
     },
     "autoload": {
         "files": [
-            "src/even.php"
+            "src/engine.php",
+            "src/games/even.php",
+            "src/games/calc.php"
     ]
     }	
 

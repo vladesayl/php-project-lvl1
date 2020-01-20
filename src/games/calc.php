@@ -17,7 +17,7 @@ function brainCalc() //Calculation function
         $trueAnswer = 0;
         $arg1 = rand(1, 100);
         $arg2 = rand(1, 100);
-        eval('$trueAnswer = '. $arg1 . $operator . $arg2 .';');
+        eval('$trueAnswer = ' . $arg1 . $operator . $arg2 . ';');
         $question = $arg1 . $operator . $arg2;
         question($question);
         check($trueAnswer);
